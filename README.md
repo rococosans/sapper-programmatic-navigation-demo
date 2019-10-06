@@ -1,5 +1,11 @@
 # Sapper Programmatic Navigation Demo
 
-import { goto } from '@sapper/app';
+```
+<script>
+  import { goto } from '@sapper/app';
+</script>
 
-<button on:click={() => goto('/about')}>Go To About</button>
+<button on:click={() => goto('/about')}>
+  Go To About
+</button>
+```
